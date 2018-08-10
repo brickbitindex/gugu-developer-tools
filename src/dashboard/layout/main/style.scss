@@ -1,0 +1,60 @@
+// @font-face {
+//   font-family: rabbit;
+//   src: url('https://assets.bitrabbit.com/upload/e42ccc9a-c4b3-485a-8e62-c3b08d5cc344.eot'),
+//       url('https://assets.bitrabbit.com/upload/1f552aff-1542-41ff-9bc3-c5e74d87e8ec.ttf'),
+//       url('https://assets.bitrabbit.com/upload/3eb456aa-43e1-4544-a858-f65029f133c5.woff') format('woff'),
+//       url('https://assets.bitrabbit.com/upload/4ed59b03-ab3a-433c-9750-3717308fbfbc.woff2') format('woff2');
+// }
+
+html {
+  font-size: 100px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+tt {
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+}
+
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  */
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background: rgba($color: #001529, $alpha: 0.2);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background: rgba($color: #001529, $alpha: 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #001529;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #001529;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  background-color: #f0f2ff;
+  font-size: 0.14rem;
+}

@@ -1,0 +1,9 @@
+{
+  "index": "dashboard.html",
+  "routers": [{
+    "name": "dashboard",
+    "entry": "./entries/dashboard/index",
+    "template": "./templates/dashboard.html",
+    "filename": "dashboard.html"
+  }]
+}

@@ -1,0 +1,12 @@
+.stylesheet {
+  font-size: 0.12rem;
+  font-family: Consolas, Menlo, Courier, monospace;
+
+  .style {
+    padding-left: 0.2rem;
+
+    span:first-child {
+      color: #c60813;
+    }
+  }
+}

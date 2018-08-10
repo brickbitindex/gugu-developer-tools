@@ -1,0 +1,25 @@
+.layout {
+  &-header {
+    position: relative;
+  }
+
+  &-content {
+    padding: 0.2rem 0.5rem;
+  }
+
+  &-breadcrumb {
+    margin: 0.16rem 0;
+  }
+
+  &-page {
+    background: #fff;
+    padding: 0.24rem;
+    min-height: 2.8rem;
+    max-width: 9rem;
+    margin: 0 auto;
+  }
+
+  &-footer {
+    text-align: center;
+  }
+}

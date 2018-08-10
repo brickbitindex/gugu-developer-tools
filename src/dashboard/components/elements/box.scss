@@ -1,0 +1,52 @@
+.box {
+  border: dashed 1px #555;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 4px;
+  }
+
+  .box-middle {
+    display: flex;
+    align-items: center;
+  }
+  .box-left, .box-right {
+    width: 15px;
+    height: 24px;
+    line-height: 24px;
+  }
+  .box-content {
+    flex-grow: 1;
+  }
+}
+#elementBox {
+  width: 50%;
+}
+#marginBox {
+  width: 250px;
+  margin: 0 auto;
+  background: #F9CC9D;
+  &::before {
+    content: "margin";
+  }
+}
+#borderBox {
+  background: #FDDD9B;
+  border: solid 1px #555;
+  &::before {
+    content: "border";
+  }
+}
+#paddingBox {
+  background: #C4D08B;
+  &::before {
+    content: "padding";
+  }
+}
+#contentBox {
+  background: #8CB6C1;
+}

@@ -1,0 +1,68 @@
+#feature {
+  .input-area {
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0.04rem;
+      bottom: 0.04rem;
+    }
+  }
+
+  .features {
+    margin: 0 -0.06rem;
+  }
+
+  .block {
+    display: inline-block;
+    width: 33.3%;
+    padding: 0 0.06rem;
+    margin: 0.06rem 0;
+
+    .content {
+      text-align: center;
+
+      .name {
+        color: #fff;
+      }
+      .result {
+        height: 0.5rem;
+        line-height: 0.5rem;
+      }
+    }
+
+    .support {
+      border: #0ac544 solid 1px;
+      background-color: rgba($color: #0ac544, $alpha: 0.2);
+
+      .name {
+        background-color: #0ac544;
+      }
+      .result {
+        color: #0ac544;
+      }
+    }
+    .not-support {
+      border: #e8013a solid 1px;
+      background-color: rgba($color: #e8013a, $alpha: 0.2);
+
+      .name {
+        background-color: #e8013a;
+      }
+      .result {
+        color: #e8013a;
+      }
+    }
+    .partial {
+      border: #e7e301 solid 1px;
+      background-color: rgba($color: #e7e301, $alpha: 0.2);
+
+      .name {
+        background-color: #e7e301;
+      }
+      .result {
+        color: #e7e301;
+      }
+    }
+  }
+}

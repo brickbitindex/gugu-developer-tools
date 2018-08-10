@@ -1,0 +1,20 @@
+.elementstyle {
+  .self {
+    color: #888;
+  }
+  .style.edit {
+    .key {
+      width: 30%;
+    }
+    .value {
+      width: 60%;
+    }
+  }
+  .opt {
+    margin-left: 0.2rem;
+    
+    & > * {
+      margin-right: 0.2rem;
+    }
+  }
+}

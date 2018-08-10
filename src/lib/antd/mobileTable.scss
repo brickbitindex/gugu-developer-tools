@@ -1,0 +1,24 @@
+.mobile-table {
+  .mobile-table-block {
+    padding-bottom: 0.08rem;
+    margin-bottom: 0.08rem;
+    border-bottom: 1px solid #54585A;
+  }
+
+  .mobile-table-row {
+    margin-bottom: 0.08rem;
+
+    .mobile-table-row-title {
+      font-weight: 600;
+    }
+
+    .mobile-table-row-value {
+      word-break: break-all;
+    }
+  }
+
+  .mobile-table-empty {
+    text-align: center;
+    color: #54585A;
+  }
+}

@@ -1,0 +1,50 @@
+.structure {
+  .doms {
+    font-size: 0.12rem;
+    font-family: Consolas, Menlo, Courier, monospace;
+    overflow: auto;
+    height: 3rem;
+
+    .dom {
+      color: #a894a6;
+
+      .tag {
+        color: #861b7e;
+      }
+
+      .attr {
+        color: #974510;
+      }
+
+      .attr-v {
+        color: #1c23a3;
+      }
+    }
+
+    .parent .name:hover,
+    .brother:hover {
+      background: #ebf1fb;
+    }
+
+    .brother.self {
+      background: #2c98f0;
+
+      .dom {
+        color: #fff;
+
+        .tag,
+        .attr,
+        .attr-v {
+          color: #fff;
+        }
+      }
+    }
+
+    .parent {
+      .children {
+        padding-left: 0.2rem;
+        white-space: nowrap;
+      }
+    }
+  }
+}
